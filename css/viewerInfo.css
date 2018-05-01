@@ -1,0 +1,14 @@
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10, 59, 84, 0);
+    content: url(https://static-cdn.jtvnw.net/badges/v1/ce2ed125-5685-4062-b980-5b4db2d87189/1);
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "문크 보러 온 사람 ";
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text;
+}

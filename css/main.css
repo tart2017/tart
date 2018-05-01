@@ -1,0 +1,10 @@
+@import url("./global.css");
+@import url("./viewerInfo.css");
+@import url("./setSubColor.css");
+
+html, body {
+    height: auto !important;
+    background : radial-gradient(rgb(253, 168, 47) 40%, rgb(203, 183, 182)  );
+    background-repeat : no-repeat;
+}
+

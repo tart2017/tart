@@ -1,0 +1,129 @@
+/* Change the 
+ *
+ * */
+
+header #right-search-form > #right-search-btn {
+    color: var(--sub-color);
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+}
+
+header #right-search-form > input[type=text] {
+    position: relative;
+    border: 3px solid var(--sub-color);
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+    border-radius: 2px;
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.3), 2px 3px 6px rgba(0,0,0,0.3);
+}
+
+
+header #header-bar > .row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 4px solid var(--sub-color);
+    border-bottom: 0;
+    border-right: 0;
+    z-index: 200;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: var(--sub-color);
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold
+}
+
+
+
+#main .menu-wrapper > .header {
+    background: var(--sub-color);
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: var(--sub-color);
+    border-color: var(--sub-color);
+}
+
+
+#article-content-wrapper > .header {
+    border-top: 3px solid var(--sub-color);
+    background: #ffebac;
+}
+
+
+#article-content-wrapper > .footer {
+    border-bottom: 3px solid var(--sub-color);
+    background: #ffebac;
+}
+
+
+#article-list #article-list-category {
+    border-top: 2px solid var(--sub-color);
+    background: #ffebac;
+    border-bottom: 2px solid var(--sub-color);
+}
+
+
+#article-reply-area > .header h5 {
+    font-size: 14px;
+    color: var(--sub-color);
+    font-weight: bold;
+}
+
+#board-info {
+    border-top: 3px solid var(--sub-color);
+    border-radius: 2px;
+    overflow: inherit;
+    padding: 5px 5px 0 8px;
+    margin: 0;
+}
+
+
+#board-info #board-info-profile-img {
+    border-radius: 5em;
+    border: 1px solid var(--sub-color);
+    float: left !important;
+}
+
+
+#board-info h1 {
+    border-bottom: 1px solid var(--sub-color);
+    height: 30px;
+    padding-left: 60px;
+}
+
+#board-info h1 .badge {
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 2.8em;
+    background-color: var(--sub-color);
+}
+
+#board-info #viewers-area {
+    color: var(--sub-color);
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+
+
+.btn-primary {
+    background: var(--sub-color);
+    border-color: #ffffff;
+}
