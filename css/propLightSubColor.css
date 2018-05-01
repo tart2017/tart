@@ -3,7 +3,7 @@
 }
 
 #article-content-wrapper > .header {
-    border-top: 3px solid #ffce31;
+    border-top: 3px solid var(--sub-color);
     background: var(--light-sub-color);
 }
 
