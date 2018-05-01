@@ -1,5 +1,5 @@
 :root {
     --main-color: ;
-    --sub-color: #6242ad;
-    --light-sub-color: #efeaf7;
+    --sub-color: rgb(37, 68, 163);
+    --light-sub-color: rgb(179, 196, 255);
 }
