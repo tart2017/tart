@@ -1,6 +1,7 @@
 @import url("./global.css");
 @import url("./viewerInfo.css");
-@import url("./setSubColor.css");
+@import url("./propSubColor.css");
+@import url("./propLightSubColor.css");
 
 html, body {
     height: auto !important;
