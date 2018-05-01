@@ -1,0 +1,8 @@
+header .row > div:nth-child(1) > a {
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url(var(--logo-url)) no-repeat;
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0,1));
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
