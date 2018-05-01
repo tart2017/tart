@@ -2,22 +2,6 @@
     background: var(--light-sub-color);
 }
 
-#article-content-wrapper > .header {
-    border-top: 3px solid var(--sub-color);
-    background: var(--light-sub-color);
-}
-
-#article-content-wrapper > .footer {
-    border-bottom: 3px solid #ffce31;
-    background: var(--light-sub-color);
-}
-
-#article-list #article-list-category {
-    border-top: 2px solid #ffce31;
-    background: var(--light-sub-color);
-    border-bottom: 2px solid #ffce31;
-}
-
 #article-list #article-list-category > a {
     display: inline-block;
     padding: 10px 12px;

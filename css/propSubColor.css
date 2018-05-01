@@ -60,19 +60,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-content-wrapper > .header {
     border-top: 3px solid var(--sub-color);
-    background: #ffebac;
+    background: var(--light-sub-color);
 }
 
 
 #article-content-wrapper > .footer {
     border-bottom: 3px solid var(--sub-color);
-    background: #ffebac;
+    background: var(--light-sub-color);
 }
 
 
 #article-list #article-list-category {
     border-top: 2px solid var(--sub-color);
-    background: #ffebac;
+    background: var(--light-sub-color);
     border-bottom: 2px solid var(--sub-color);
 }
 
