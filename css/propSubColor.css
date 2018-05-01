@@ -1,7 +1,16 @@
-/* Change the 
- *
- * */
+/* Description : Change the Sub colors (Original sub color is purple) */
+/* main menu property */
+#main .menu-wrapper > .header {
+    background: var(--sub-color);
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
 
+
+/* header properties */
 header #right-search-form > #right-search-btn {
     color: var(--sub-color);
     background: transparent;
@@ -18,7 +27,6 @@ header #right-search-form > input[type=text] {
     border-radius: 2px;
     box-shadow: 2px 3px 6px rgba(0,0,0,0.3), 2px 3px 6px rgba(0,0,0,0.3);
 }
-
 
 header #header-bar > .row {
     padding-top: 0.3em;
@@ -37,16 +45,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 
-
-#main .menu-wrapper > .header {
-    background: var(--sub-color);
-    color: #fff;
-    padding: 0.45em 1.4em 0.45em 1em;
-    font-weight: bold;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-}
-
+/* pagination property */
 .pagination > .active > a,
 .pagination > .active > a:focus,
 .pagination > .active > a:hover,
@@ -58,6 +57,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 
+/* article properties */
 #article-content-wrapper > .header {
     border-top: 3px solid var(--sub-color);
     background: var(--light-sub-color);
@@ -69,13 +69,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: var(--light-sub-color);
 }
 
-
 #article-list #article-list-category {
     border-top: 2px solid var(--sub-color);
     background: var(--light-sub-color);
     border-bottom: 2px solid var(--sub-color);
 }
-
 
 #article-reply-area > .header h5 {
     font-size: 14px;
@@ -83,6 +81,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     font-weight: bold;
 }
 
+
+/* baord info properties */
 #board-info {
     border-top: 3px solid var(--sub-color);
     border-radius: 2px;
@@ -91,13 +91,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin: 0;
 }
 
-
 #board-info #board-info-profile-img {
     border-radius: 5em;
     border: 1px solid var(--sub-color);
     float: left !important;
 }
-
 
 #board-info h1 {
     border-bottom: 1px solid var(--sub-color);
@@ -123,6 +121,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 
+/* botton property */
 .btn-primary {
     background: var(--sub-color);
     border-color: #ffffff;
