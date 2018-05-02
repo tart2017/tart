@@ -4,6 +4,7 @@
 @import url("./propLightSubColor.css");
 @import url("./logo.css");
 
+/* Set a background of your screen*/
 html, body {
     height: auto !important;
     background: url("../images/yellow_bg.png"); /* radial-gradient(rgb(253, 168, 47) 40%, rgb(242, 217, 213) ); */
