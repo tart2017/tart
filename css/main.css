@@ -6,7 +6,8 @@
 
 html, body {
     height: auto !important;
-    background : url("../images/yellow_bg.png"); /* radial-gradient(rgb(253, 168, 47) 40%, rgb(242, 217, 213) ); */
-    background-repeat : no-repeat;
+    background: url("../images/yellow_bg.png"); /* radial-gradient(rgb(253, 168, 47) 40%, rgb(242, 217, 213) ); */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
