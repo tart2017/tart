@@ -9,8 +9,8 @@ header .row > div:nth-child(1) > a {
     height: 55px;
     background: var(--logo-url) no-repeat;
     background-size: contain;
-    -webkit-animation: fade-in 2.4s cubic-bezier(0.68, 0.4, 0.39, 0.67) both infinite;
-            animation: fade-in 2.4s cubic-bezier(0.68, 0.4, 0.39, 0.67) both infinite;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.68, 0.4, 0.39, 0.67) both;
+            animation: fade-in 1.2s cubic-bezier(0.68, 0.4, 0.39, 0.67) both;
 }
 
 /* ----------------------------------------------
